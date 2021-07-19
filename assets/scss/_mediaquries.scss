@@ -5,7 +5,10 @@ $breakpoints: (xs: 576px,
 
 //Extra Small devices (landscape phones, 576px and up)
 @media (max-width: 575px) {
- 
+  .container-mar {
+  margin: 0 20px 0 20px;
+
+}
 }
 
 
@@ -15,7 +18,12 @@ $breakpoints: (xs: 576px,
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  .intro-heading p {
+    margin: 3rem 5rem 0 5rem;
+}
+
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {}
@@ -24,7 +32,15 @@ $breakpoints: (xs: 576px,
 @media (min-width: 1200px) {
 
   .container-mar {
-    margin: 0 100px;
+    margin: 0 100px 0 100px;
   }
+
+  .navbar {
+    margin: 0 100px;
+}
+
+.intro-heading p {
+  margin: 3rem 5rem 0 5rem;
+}
 
 }

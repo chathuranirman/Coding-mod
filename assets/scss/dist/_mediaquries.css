@@ -1,1 +1,23 @@
-remove media quries
+@media (max-width: 575px) {
+  .container-mar {
+    margin: 0 20px 0 20px;
+  }
+}
+@media (min-width: 768px) {
+  .intro-heading p {
+    margin: 3rem 5rem 0 5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .container-mar {
+    margin: 0 100px 0 100px;
+  }
+
+  .navbar {
+    margin: 0 100px;
+  }
+
+  .intro-heading p {
+    margin: 3rem 5rem 0 5rem;
+  }
+}
