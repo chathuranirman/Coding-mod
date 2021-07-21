@@ -72,6 +72,17 @@ h1, h2, h3, h4, h5, p {
   .intro-heading p {
     margin: 3rem 5rem 0 5rem;
   }
+
+  .circle {
+    width: 50vh;
+    height: 50vh;
+  }
+  .circle:after {
+    top: 1.6rem;
+    bottom: 1.6rem;
+    left: 1.6rem;
+    right: 1.6rem;
+  }
 }
 @media (min-width: 1200px) {
   .container-mar {
@@ -84,6 +95,17 @@ h1, h2, h3, h4, h5, p {
 
   .intro-heading p {
     margin: 3rem 5rem 0 5rem;
+  }
+
+  .circle {
+    width: 20vh;
+    height: 20vh;
+  }
+  .circle:after {
+    top: 1.6rem;
+    bottom: 1.6rem;
+    left: 1.6rem;
+    right: 1.6rem;
   }
 }
 body {
@@ -166,18 +188,14 @@ body {
 
 .circle {
   position: relative;
-  width: 20vh;
-  height: 20vh;
   border-radius: 50%;
   background: linear-gradient(#27BED8, #115B86);
+  float: none;
+  margin: 0 auto;
 }
 .circle:after {
   content: "";
   position: absolute;
-  top: 1.6rem;
-  bottom: 1.6rem;
-  left: 1.6rem;
-  right: 1.6rem;
   border-radius: 50%;
   background-color: #fff;
 }

@@ -111,18 +111,14 @@ body {
 
 .circle {
     position: relative;
-    width: 20vh;
-    height: 20vh;
     border-radius: 50%;
     background: linear-gradient(#27BED8, #115B86);
+    float: none;
+    margin: 0 auto;
 
     &:after {
         content: '';
         position: absolute;
-        top: 1.6rem;
-        bottom: 1.6rem;
-        left: 1.6rem;
-        right: 1.6rem;
         border-radius: 50%;
         background-color: #fff;
 

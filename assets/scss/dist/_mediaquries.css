@@ -2,10 +2,44 @@
   .container-mar {
     margin: 0 20px 0 20px;
   }
+
+  .circle {
+    width: 50vh;
+    height: 50vh;
+  }
+  .circle:after {
+    top: 1.6rem;
+    bottom: 1.6rem;
+    left: 1.6rem;
+    right: 1.6rem;
+  }
+}
+@media (min-width: 576px) {
+  .circle {
+    width: 50vh;
+    height: 50vh;
+  }
+  .circle:after {
+    top: 1.6rem;
+    bottom: 1.6rem;
+    left: 1.6rem;
+    right: 1.6rem;
+  }
 }
 @media (min-width: 768px) {
   .intro-heading p {
     margin: 3rem 5rem 0 5rem;
+  }
+
+  .circle {
+    width: 50vh;
+    height: 50vh;
+  }
+  .circle:after {
+    top: 1.6rem;
+    bottom: 1.6rem;
+    left: 1.6rem;
+    right: 1.6rem;
   }
 }
 @media (min-width: 1200px) {
@@ -19,5 +53,16 @@
 
   .intro-heading p {
     margin: 3rem 5rem 0 5rem;
+  }
+
+  .circle {
+    width: 20vh;
+    height: 20vh;
+  }
+  .circle:after {
+    top: 1.6rem;
+    bottom: 1.6rem;
+    left: 1.6rem;
+    right: 1.6rem;
   }
 }
