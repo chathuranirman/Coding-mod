@@ -63,9 +63,39 @@ h1, h2, h3, h4, h5, p {
   border: 0px solid;
 }
 
+.service-card {
+  border-radius: 31px;
+  padding: 46px;
+  background-color: #DBDBDB;
+  border: 0px solid;
+}
+
 @media (max-width: 575px) {
   .container-mar {
     margin: 0 20px 0 20px;
+  }
+
+  .circle {
+    width: 50vh;
+    height: 50vh;
+  }
+  .circle:after {
+    top: 1.6rem;
+    bottom: 1.6rem;
+    left: 1.6rem;
+    right: 1.6rem;
+  }
+}
+@media (min-width: 576px) {
+  .circle {
+    width: 50vh;
+    height: 50vh;
+  }
+  .circle:after {
+    top: 1.6rem;
+    bottom: 1.6rem;
+    left: 1.6rem;
+    right: 1.6rem;
   }
 }
 @media (min-width: 768px) {
@@ -182,6 +212,18 @@ body {
   align-items: flex-end;
 }
 .card .card-title {
+  text-align: center;
+  color: #fff;
+}
+
+.service-card {
+  width: 29rem;
+  height: 29rem;
+}
+.service-card .img-wrapper-icon img {
+  width: 70px;
+}
+.service-card .card-title, .service-card .card-body p {
   text-align: center;
   color: #fff;
 }

@@ -109,6 +109,23 @@ body {
     }
 }
 
+
+.service-card {
+    width: 29rem;
+    height: 29rem;
+
+    .img-wrapper-icon {
+
+        img {
+            width: 70px;
+        }
+    }
+    .card-title, .card-body  p{
+        text-align: center;
+        color: #fff;
+    }
+}
+
 .circle {
     position: relative;
     border-radius: 50%;
@@ -133,4 +150,3 @@ body {
     }
 
 }
-

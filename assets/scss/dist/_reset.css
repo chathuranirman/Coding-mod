@@ -50,3 +50,10 @@ h1, h2, h3, h4, h5, p {
   background: linear-gradient(#EDEDED, #005B85);
   border: 0px solid;
 }
+
+.service-card {
+  border-radius: 31px;
+  padding: 46px;
+  background-color: #DBDBDB;
+  border: 0px solid;
+}

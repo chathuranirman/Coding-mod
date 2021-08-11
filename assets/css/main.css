@@ -66,6 +66,13 @@ h1, h2, h3, h4, h5, p {
   border: 0px solid;
 }
 
+.service-card {
+  border-radius: 31px;
+  padding: 46px;
+  background-color: #DBDBDB;
+  border: 0px solid;
+}
+
 @media (max-width: 575px) {
   .container-mar {
     margin: 0 20px 0 20px;
@@ -217,6 +224,20 @@ body {
 }
 
 .card .card-title {
+  text-align: center;
+  color: #fff;
+}
+
+.service-card {
+  width: 29rem;
+  height: 29rem;
+}
+
+.service-card .img-wrapper-icon img {
+  width: 70px;
+}
+
+.service-card .card-title, .service-card .card-body p {
   text-align: center;
   color: #fff;
 }
