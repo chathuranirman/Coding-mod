@@ -68,9 +68,10 @@ $breakpoints: (xs: 576px,
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 
-  .container-mar {
-    margin: 0 100px 0 100px;
-  }
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1200px;
+}
+
 
   .navbar {
     margin: 0 100px;
@@ -91,6 +92,6 @@ $breakpoints: (xs: 576px,
       right: 1.6rem;
     }
   }
-
+ 
   
 }

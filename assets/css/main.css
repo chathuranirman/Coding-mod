@@ -73,6 +73,10 @@ h1, h2, h3, h4, h5, p {
   border: 0px solid;
 }
 
+.service-card:hover {
+  background-color: #fff;
+}
+
 @media (max-width: 575px) {
   .container-mar {
     margin: 0 20px 0 20px;
@@ -119,8 +123,8 @@ h1, h2, h3, h4, h5, p {
 }
 
 @media (min-width: 1200px) {
-  .container-mar {
-    margin: 0 100px 0 100px;
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1200px;
   }
   .navbar {
     margin: 0 100px;

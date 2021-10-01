@@ -43,8 +43,8 @@
   }
 }
 @media (min-width: 1200px) {
-  .container-mar {
-    margin: 0 100px 0 100px;
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1200px;
   }
 
   .navbar {
